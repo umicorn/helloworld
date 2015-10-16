@@ -19,7 +19,7 @@
         android:text="enter name here"
         android:ems="10"
         android:id="@+id/editText"
-        android:layout_marginBottom="69dp"
+        android:layout_marginBottom="64dp"
         android:layout_above="@+id/button"
         android:layout_centerHorizontal="true" />
 
