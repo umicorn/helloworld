@@ -26,9 +26,13 @@ public class MainActivity extends AppCompatActivity {
 
 
     public void onNextClick(View source) {
-       //Toast.makeText(this, "Howdy", Toast.LENGTH_LONG).show();
         Log.i("tag", "Next Button clicked");
         Intent colorIntent = new Intent(this, color.class) ;
+
+        sendBundle.putString("name","Tom");
+
+        colorIntent.putExtra("groceries",sendBundle);
+
         startActivity(colorIntent, sendBundle);
     }
 
