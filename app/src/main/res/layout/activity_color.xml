@@ -18,7 +18,8 @@
         android:text="red"
         android:id="@+id/button4"
         android:background="#be1717"
-        android:layout_gravity="center_horizontal" />
+        android:layout_gravity="center_horizontal"
+        android:onClick="onColorClick" />
 
     <Button
         android:layout_width="wrap_content"
@@ -26,7 +27,8 @@
         android:text="yeller"
         android:id="@+id/button5"
         android:layout_gravity="center_horizontal"
-        android:background="#ead12e" />
+        android:background="#ead12e"
+        android:onClick="onColorClick" />
 
     <Button
         android:layout_width="100dp"
@@ -35,7 +37,8 @@
         android:id="@+id/button2"
         android:layout_weight="0.03"
         android:background="#baff1e"
-        android:layout_gravity="center_horizontal" />
+        android:layout_gravity="center_horizontal"
+        android:onClick="onColorClick" />
 
     <Button
         android:layout_width="101dp"
@@ -44,6 +47,7 @@
         android:id="@+id/button3"
         android:layout_gravity="center_horizontal"
         android:layout_weight="0.04"
-        android:backgroundTint="#4e36e7" />
+        android:backgroundTint="#4e36e7"
+        android:onClick="onColorClick" />
 
 </LinearLayout>

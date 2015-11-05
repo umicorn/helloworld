@@ -20,6 +20,14 @@
             android:name=".color"
             android:label="@string/title_activity_color" >
         </activity>
+        <activity
+            android:name=".lastActivity"
+            android:label="@string/title_activity_last"
+            android:parentActivityName=".color" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.jchuah.myapplication.color" />
+        </activity>
     </application>
 
 </manifest>
